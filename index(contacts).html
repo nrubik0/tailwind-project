@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты</title>
+    <link rel="stylesheet" href="dist/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"/>
+</head>
+<body>
+  <header class="bg-white sans text-black w-120">
+    <section class="container mx-auto py-2 px-64 max-[1280px]:px-32 max-[1024px]:px-16 max-[500px]:px-4" >
+      <nav class="bg-white text-black py-1">
+        <div class=" flex justify-between items-center">
+            <img class="m-[10px] max-[1280px]:mr-[20%] max-[1024px]:mr-[10%]" src="img/logo.svg" alt="#" />
+            <div class="md:hidden">
+                <button id="burger-menu" class="focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="2 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+                <div class="hidden md:flex space-x-10 font-semibold whitespace-nowrap text-[18px]  ">
+                  <a class="hover:text-[#5D71DD]" href="index( home).html">Главное</a>
+                  <a class="hover:text-[#5D71DD]" href="#">О нас</a>
+                  <a class="text-[#5D71DD] underline hover:text-sky-950 " href="index(contacts).html">Контакты</a>
+                  <a class="hover:text-[#5D71DD]" href="index(search).html">Поиск</a>
+                  <div class="flex">
+                    <img class="w-max mr-2.5" src="img/phone-call 1.svg" alt="#" />
+                    <a
+                      href="tel:+7 (987) 887-87"
+                      class="text-[#5D71DD] hover:text-sky-950">+7 (987) 887-87
+                    </a>
+                  </div>
+                </div>
+        </div>
+    </nav>
+    <!-- mobile -->
+    <div id="mobile-menu" class="hidden md:hidden bg-white text-black py-4">
+        <div class="container mx-auto flex flex-col items-center space-y-4">
+            <div class="flex flex-col items-center space-y-4  font-semibold whitespace-nowrap text-[18px]">
+                <a class="hover:text-[#5D71DD]" href="index( home).html">Главное</a>
+                <a class="hover:text-[#5D71DD]" href="#">О нас</a>
+                <a class="text-[#5D71DD] underline hover:text-sky-950 " href="index(contacts).html">Контакты</a>
+                <a class="hover:text-[#5D71DD]" href="index(search).html">Поиск</a>
+                <div class="flex">
+                  <img class="w-max mr-2.5" src="img/phone-call 1.svg" alt="#" />
+                  <a
+                    href="tel:+7 (987) 887-87"
+                    class="text-[#5D71DD] hover:text-sky-950">+7 (987) 887-87
+                  </a>
+                </div>
+              </div>
+        </div>
+    </div>
+    </section>
+    <!-- bg -->
+    <img
+      class="w-full h-[300px] object-cover object-center"
+      src="img/bg1.svg"
+      alt=""
+    />
+  </header>
+      <main class="sans bg-[#F5F5F5]">
+        <section class="container  mx-auto py-[10%] px-[15rem] flex space-x-40 max-[1280px]:px-[5rem] max-[1024px]:px-[1rem] max-[768px]:flex-col max-[768px]:space-x-0 max-[768px]:space-y-[40px] ">
+          <div class="mt-[25px]">
+                <h1 class="text-[30px] text-black">Контактная информация</h1>
+              <div class="flex mt-[30px]">   
+                <img class="w-max mr-2.5" src="img/phone-call 1.svg" alt="#">
+                <a href="tel:+7 (987) 887-87" class=" text-[#5D71DD] text-[18px] hover:text-sky-950">+7 (987) 887-87</a>
+              </div>
+            <div class="flex mt-[20px]">   
+              <img class="w-max mr-2.5" src="img/location.svg" alt="#">
+              <a href="" class="text-[#5D71DD] text-[18px] hover:text-sky-950">г. Санкт-Петербург, ул. Ленина, 9</a>
+            </div>
+          <div class="flex space-x-3 mt-[40px]">
+             <a href=""><div class="flex justify-center items-center h-[40px] w-[40px] bg-[#5D71DD] rounded-full hover:bg-sky-950"><img class="w-[60%] " src="img/facebook.png" alt=""></div></a>
+             <a href=""><div class="flex justify-center items-center h-[40px] w-[40px] bg-[#5D71DD] rounded-full hover:bg-sky-950"><img class="w-[60%] " src="img/vk.png" alt=""></div></a>
+             <a href=""><div class="flex justify-center items-center h-[40px] w-[40px] bg-[#5D71DD] rounded-full hover:bg-sky-950"><img class="w-[60%] " src="img/instagram.png" alt=""></div></a>
+             <a href=""><div class="flex justify-center items-center h-[40px] w-[40px] bg-[#5D71DD] rounded-full hover:bg-sky-950"><img class="w-[60%] " src="img/twitter.png" alt=""></div></a>
+           </div>
+        </div>
+          <div class="bg-white shadow w-[560px] px-[30px] py-[40px] rounded-[10px] max-[768px]:w-[100%]">
+                <h4 class=" text-center text-[30px]">Напишите нам</h4>
+                <div class="mt-[30px]">
+                  <label for="username" class="block text-[#2F222266] text-sm font-bold "></label>
+                  <input type="text" id="username" name="username" placeholder="Ваше имя" class="w-full px-3 py-2 border rounded-[15px] text-black bg-[#F5F5F5] focus:outline-none focus:ring focus:border-blue-500">
+                </div>
+                <div class="mt-[30px]">
+                  <label for="username" class="block text-[#2F222266] text-sm font-bold "></label>
+                  <input type="text" id="username" name="username" placeholder="Телефон или E-mail" class="w-full px-3 py-2 border rounded-[15px] text-black bg-[#F5F5F5] focus:outline-none focus:ring focus:border-blue-500">
+                </div>
+                <div class="mt-[30px]">
+                  <label for="username" class="block text-[#2F222266] text-sm font-bold "></label>
+                  <input type="text" id="username" name="username" placeholder="Сообщение..." class="w-full px-3 py-2 border rounded-[15px] text-black bg-[#F5F5F5] focus:outline-none focus:ring focus:border-blue-500">
+                </div>
+            <div class="mt-[30px] w-full ">
+                <button class="w-[100%] text-white py-[8px] px-[30%] bg-[#5D71DD] rounded-[15px] hover:bg-[#1e2651]">Отправить</button>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="bg-white bg-opacity-5 py-[40px]">
+        <section class="container mx-auto">
+                <img class="mx-auto" src="img/logo.svg" alt="">
+            <div class="flex justify-center space-x-[80px] mt-[40px] text-[18px] max-[550px]:flex-col max-[550px]:space-x-0 max-[550px]:items-center max-[550px]:space-y-[10px] "> 
+                <a class="hover:text-[#5D71DD] max-[550px]:text-[22px]" href="">О нас</a>
+                <a class="hover:text-[#5D71DD] max-[550px]:text-[22px]" href="">Галерея</a>
+                <a class="hover:text-[#5D71DD] max-[550px]:text-[22px]" href="">Новости</a>
+                <a class="text-[#5D71DD] underline hover:text-sky-950 max-[550px]:text-[22px]" href="index(contacts).html">Контакты</a>
+            </div>
+            <p class="text-center mt-[60px] text-[14px]">ООО “Организация” 2020. Все права защищены <br> by nrubik0 </p>
+        </section>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
